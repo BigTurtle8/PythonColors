@@ -20,11 +20,6 @@ class Colors:
         return new_text
 
 
-# \033[style; text color; background color
-# Make sure not end it with a 0. Just don't include it. Make sure the last digit has an m.
-# That is how you edit it.
-# ***Uses ANSI escapes.***
-# In the wiki page for ANSI, there are two different columns for FG (Foreground/Text) and BG (Background).
 c = Colors()
 
 
